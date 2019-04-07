@@ -197,11 +197,8 @@ img {
 @media screen and (max-width: 1180px) {
   .courses-grid {
     grid-template-columns: 1fr 1fr;
-<<<<<<< HEAD
-=======
     grid-gap: 1rem;
     grid-auto-rows: min-content;
->>>>>>> parent of ac26614... fixed
   }
 }
 
@@ -215,16 +212,12 @@ img {
   }
 
   .main-content {
-<<<<<<< HEAD
-    display: block;
-=======
     margin-top: 2rem;
     grid-area: content;
     display: grid;
     grid-template-columns: 1fr;
     min-height: 80vh;
     margin-bottom: 2rem;
->>>>>>> parent of ac26614... fixed
   }
 
   .filter-column {
@@ -239,10 +232,7 @@ img {
 @media screen and (max-width: 600px) {
   .courses-grid {
     grid-template-columns: 1fr;
-<<<<<<< HEAD
-=======
     grid-gap: 1rem;
     grid-auto-rows: min-content;
->>>>>>> parent of ac26614... fixed
   }
 }
