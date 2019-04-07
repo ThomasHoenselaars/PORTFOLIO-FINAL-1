@@ -206,7 +206,7 @@ img {
   }
 
   .header-left {
-    height: 30rem;
+    height: auto;
   }
 
   .main-content {
@@ -224,6 +224,9 @@ img {
   }
   .filter-cat li {
     width: 100%;
+  }
+  .filter-cat li:hover {
+    background: white;
   }
 }
 
