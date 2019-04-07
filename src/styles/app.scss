@@ -190,7 +190,6 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    grid-auto-rows: min-content;
   }
 }
 
@@ -200,12 +199,8 @@ img {
   }
 
   .main-content {
-    margin-top: 2rem;
-    grid-area: content;
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 80vh;
-    margin-bottom: 2rem;
   }
 
   .filter-column {
@@ -215,6 +210,9 @@ img {
   .filter-cat li {
     width: 100%;
   }
+  .filter-cat li:hover {
+    background: white;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +220,5 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    grid-auto-rows: min-content;
   }
 }
