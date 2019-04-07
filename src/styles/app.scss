@@ -185,7 +185,7 @@ img {
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 17px;
-  left: 100px;
+  left: 110px;
   transform: rotate(45deg);
   height: 10px;
   width: 6px;
@@ -202,7 +202,8 @@ img {
 
 @media screen and (max-width: 800px) {
   .header {
-    flex-flow: column wrap;
+    display: block;
+    min-height: 0;
   }
 
   .header-left {
