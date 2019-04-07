@@ -36,6 +36,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   min-height: 30rem;
+  height: 100%;
   color: white;
 }
 
@@ -78,9 +79,11 @@ img {
 .main-content {
   margin: 0 auto;
   width: 100%;
+
   display: grid;
   grid-template-columns: 1fr 3fr;
   min-height: 80vh;
+  height: 100%;
 }
 
 .block {
